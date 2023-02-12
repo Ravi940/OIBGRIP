@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&family=Work+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.slidebar{
+    background-color: bisque;
+    width: 158px;
+    font-family: 'IBM Plex Serif', serif;
+    height: 675px;
+}
+.slidebar nav{
+    padding: 30px;
+
+}
+.slidebar nav li{
+    list-style: none;
+    font-size: 18px;
+    padding: 20px 0;
+}
+.slidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    background-color: rgb(128, 210, 243);
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    /* background-color: aqua; */
+    height: 45vh;
+    width: 144vh;
+    margin: 152px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devpic img{
+    height: 65vh;
+    margin-top: -130px;
+   
+}
+.hello{
+    font-size: 40px;
+}
+.name{
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'IBM Plex Serif', serif;
+}
+.about{
+    font-size: 35px;
+}
+.btn{
+    margin-top: 34px;
+}
+.btn button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: rgb(59, 169, 243);
+    font-weight: bold;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color: white;
+    color: rgb(59, 169, 243);
+}
+
+.devinfo{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+} 
+
+
+/* Contact Form CSS */
+
+.contactform{
+    background-color: rgb(176, 229, 233);
+    padding: 120px;
+    font-family: 'IBM Plex Serif', serif;
+}
+.contactform h1{
+    /* text-align: center; */
+    padding: 12px 0;
+}
+.contactform form div{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+.contactform form div input{
+    width: 26vw;
+    border-radius: 6px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size: 15px;
+    color: red;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+.contactform button{
+    padding: 5px 10px;
+    border-radius: 18px;
+    color: white;
+    background-color: rgb(90, 180, 240);
+    font-weight: bold;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.contactform button:hover{
+    background-color: white;
+    color: rgb(90, 180, 240);
+}
+
+/* CSS for Blog Page */
+
+.blogitem{
+    /* background-color: rgba(240, 164, 164, 0.938); */
+    margin: 30px;
+    font-family: 'IBM Plex Serif', serif;
+}
+.blogform h1{
+    font-family: 'IBM Plex Serif', serif;
+    margin: 23px;
+}
+.blogform h2{
+    font-family: 'IBM Plex Serif', serif;
+    margin: 6px;
+}
+.bolgitem p{
+    font-family: 'IBM Plex Serif', serif;
+    margin: 3px;
+}
+.blogitem button{
+    padding: 5px 6px;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(59, 169, 243);
+    font-weight: bold;
+    margin: 4px 7px;
+    cursor: pointer;
+}
+
+.blogitem button:hover{
+    background-color: white;
+    color: rgb(59, 169, 243);
+}
+
+/* CSS for Intro  */
+.devinfo h1{
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.devinfo p{
+    margin: 10px;
+}
+.devinfo h2{
+    margin: 10px;
+}
+.skills{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 12px;
+}
+.skillitem{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+}
+.skill1{
+    width: 200px;
+    height: 7px;
+    background-color: blue;
+    border: 2px solid black;
+}
+.ninty{
+    width: 250px;
+}
+.eighty{
+    width: 200px;
+}
+.fifty{
+    width: 125px;
+}
+.project ul{
+    margin: 25px;
+}
+.project li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin: 10px;
+}
