@@ -1,0 +1,63 @@
+body {
+	margin: 50px;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: #e9c0c0;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.converter {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.converter input[type=number] {
+	width: 150px;
+	height: 30px;
+	padding: 5px;
+	margin-right: 10px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.converter span {
+	margin: 0 10px;
+	font-size: 30px;
+}
+
+.converter select {
+	width: 150px;
+	height: 40px;
+	padding: 5px;
+	margin-right: 10px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.converter button {
+	padding: 10px 20px;
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.converter button:hover {
+	background-color: #3e8e41;
+}
